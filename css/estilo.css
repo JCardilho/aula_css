@@ -1,0 +1,23 @@
+* {
+  padding: 20px;
+  margin: 20px;
+}
+body {
+  background-color: rgb(80, 53, 53);
+}
+p {
+  color: red;
+  font-size: 88px;
+}
+h2 {
+  color: blue;
+  font-size: 44px;
+}
+#id {
+  color: green;
+  font-size: 22px;
+}
+.meio {
+  color: yellow;
+  font-size: 11px;
+}
