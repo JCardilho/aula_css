@@ -1,17 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&family=Montserrat&display=swap");
+
 * {
   padding: 20px;
   margin: 20px;
+}
+h1 {
+  padding: 30px 10px 10px 5px;
+  margin: 30px 30px 50px 30px;
+  color: turquoise;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: black;
+  text-align: center;
 }
 body {
   background-color: rgb(80, 53, 53);
 }
 p {
+  font-family: "Montserrat", sans-serif;
   color: red;
-  font-size: 88px;
+  font-size: 10px;
 }
 h2 {
+  font-family: "Inter", sans-serif;
   color: blue;
-  font-size: 44px;
+  font-size: 10px;
 }
 #id {
   color: green;
@@ -20,4 +33,82 @@ h2 {
 .meio {
   color: yellow;
   font-size: 11px;
+}
+.botao {
+  margin: 33%;
+  background: green;
+  color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.botao:hover {
+  transition: 0.5s ease;
+  background: rgb(38, 30, 156);
+}
+.botao1 {
+  transition: 2s ease;
+  margin: 33%;
+  background: red;
+  color: greenyellow;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+.botao1:hover {
+  transition: 2s ease;
+  background: rgb(185, 30, 152);
+}
+a.botao2 {
+  text-decoration: none;
+  background: darkseagreen;
+  color: white;
+  padding: 10px;
+  border: 4px solid greenyellow;
+  border-radius: 5px;
+}
+a.botao2:hover {
+  background: rgb(5, 235, 5);
+  padding: 15px;
+  border: 4px solid rgb(79, 129, 5);
+}
+a.botao3 {
+  text-decoration: none;
+  padding: 10px;
+  border: 5px double blue;
+  color: blue;
+}
+a.botao3:hover {
+  text-decoration: underline;
+  padding: 8px;
+  background: blue;
+  color: white;
+}
+a.botao4 {
+  text-decoration: none;
+  color: black(1, 1, 24);
+}
+a.botao4:hover {
+  border-bottom: 5px solid red;
+}
+a.botao5 {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
+a.botao5:hover {
+  font-size: 22px;
+  font-weight: bold;
+}
+.tamanho {
+  text-align: center;
+  max-width: 800px;
+  height: 250px;
+  background: cyan;
+  border: 2px solid black;
+  border-radius: 10px;
 }

@@ -1,0 +1,98 @@
+.borda {
+  border: 1px solid red;
+}
+#p1 {
+  display: block;
+}
+#p1:hover {
+  display: none;
+}
+.azul {
+  background: blue;
+}
+.red {
+  background: red;
+}
+.verde {
+  background: green;
+}
+li {
+  display: inline-block;
+  width: 33%;
+  height: 150px;
+}
+.ex1 {
+  padding-left: 50px;
+  width: 800px;
+}
+.ex2 {
+  padding-left: 50px;
+  max-width: 800px;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  background: blue;
+  width: 100%;
+  height: 400px;
+}
+.div1 {
+  position: relative;
+  left: 100px;
+  top: 20px;
+  width: 30%;
+  height: 100px;
+  background: yellow;
+  display: inline-block;
+}
+.div2 {
+  width: 30%;
+  height: 100px;
+  background: rgb(190, 26, 26);
+  display: inline-block;
+}
+.div3 {
+  position: absolute; /*não pode ser estatico o container(pai)tem que ser position: absolute */
+  top: 150px;
+  right: 50px;
+  width: 30%;
+  height: 100px;
+  background: red;
+  display: inline-block;
+}
+.div4 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  width: 30%;
+  height: 100px;
+  background: rgb(26, 26, 190);
+  display: inline-block;
+}
+.div5 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 30%;
+  height: 100px;
+  background: rgb(26, 190, 26);
+  display: inline-block;
+}
+.div6 {
+  position: sticky; /*fica no container mesmo rodando*/
+  top: 300px;
+  right: 100px;
+  width: 30%;
+  height: 100px;
+  background: rgb(201, 65, 183);
+  display: inline-block;
+}
+.Whats {
+  background: green;
+  color: white;
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
