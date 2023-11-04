@@ -32,7 +32,9 @@ li {
 .container {
   position: relative;
   display: inline-block;
-  background: blue;
+  background: url('../img/img_aevp.jfif');
+  background-size: cover;
+  opacity: 0.5;
   width: 100%;
   height: 400px;
 }
@@ -53,40 +55,29 @@ li {
 }
 .div3 {
   position: absolute; /*não pode ser estatico o container(pai)tem que ser position: absolute */
-  top: 150px;
-  right: 50px;
+  top: 100px;
+  right: 30px;
   width: 30%;
   height: 100px;
   background: red;
   display: inline-block;
 }
 .div4 {
-  position: absolute;
+  position: absolute; /*pode ser usado grudento position: sticky*/
   top: 150px;
-  left: 50px;
+  left: 20px;
   width: 30%;
-  height: 100px;
+  height: 60px;
   background: rgb(26, 26, 190);
   display: inline-block;
 }
-.div5 {
-  position: absolute;
-  top: 300px;
-  left: 100px;
-  width: 30%;
-  height: 100px;
-  background: rgb(26, 190, 26);
-  display: inline-block;
+.exemploverflow{
+  background: bisque;
+  color: black;
+  height: 150px;
+  overflow: auto;
 }
-.div6 {
-  position: sticky; /*fica no container mesmo rodando*/
-  top: 300px;
-  right: 100px;
-  width: 30%;
-  height: 100px;
-  background: rgb(201, 65, 183);
-  display: inline-block;
-}
+
 .Whats {
   background: green;
   color: white;
@@ -95,4 +86,7 @@ li {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  ;
 }
